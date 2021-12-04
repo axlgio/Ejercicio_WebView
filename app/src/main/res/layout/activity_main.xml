@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#80CBC4"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:text="EJERCICIO SEMANA 4"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/black"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/izquierda_arriba_abajo"
+            android:orientation="vertical"
+            android:layout_marginLeft="50dp"
+            android:paddingBottom="5dp">
+
+        <TextView
+            android:id="@+id/tv_title1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="25dp"
+
+            android:textSize="20dp"
+            tools:text="PRUEBA DE TITLE"
+
+            />
+        <TextView
+            android:id="@+id/tv_description1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            tools:text="PRUEBA DE DESCRIPTION"
+            />
+
+        <Button
+            android:id="@+id/btn_prueba1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:text="PRUEBA"
+            android:textColor="#ffffff"
+            android:background="@drawable/botones"
+            style="@style/boton"
+            />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingVertical="10dp"
+
+            >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/todos"
+            android:layout_marginHorizontal="10dp"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/iv_tene"
+
+                android:text="prueba 1"/>
+            <TextView
+                android:id="@+id/tv_description3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_title3"
+                android:layout_toRightOf="@id/iv_tene"
+
+                android:text="Descripcion"/>
+
+            <ImageView
+                android:id="@+id/iv_tene"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/tene"
+
+                />
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+            <RelativeLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/todos"
+                android:layout_marginHorizontal="10dp"
+                android:padding="10dp">
+                >
+
+                <TextView
+                    android:id="@+id/tv_title4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/iv_tene1"
+
+                    android:text="prueba 1"/>
+                <TextView
+                    android:id="@+id/tv_description4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_title4"
+                    android:layout_toRightOf="@id/iv_tene1"
+
+                    android:text="Descripcion"/>
+
+                <ImageView
+                    android:id="@+id/iv_tene1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/tene"
+
+                    />
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/todos"
+                android:layout_marginHorizontal="0dp"
+                android:padding="10dp">
+                >
+
+                <TextView
+                    android:id="@+id/tv_title5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/iv_tene2"
+
+                    android:text="prueba 1"/>
+                <TextView
+                    android:id="@+id/tv_description5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_title5"
+                    android:layout_toRightOf="@id/iv_tene2"
+
+                    android:text="Descripcion"/>
+
+                <ImageView
+                    android:id="@+id/iv_tene2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/tene"
+
+                    />
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/izquierda_arriba_abajo"
+            android:orientation="vertical"
+            android:layout_marginLeft="50dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/progra1"
+                android:text="10 "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginHorizontal="25dp"
+                android:textSize="80dp"
+
+                />
+            <TextView
+                android:id="@+id/descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="25dp"
+                android:layout_marginTop="5dp"
+                android:textSize="20dp"
+
+                android:text="Lenguajes de programacion"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/arriba_izquierda"
+        android:paddingBottom="100dp"
+
+        >
+
+        <TextView
+            android:id="@+id/tv_title2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            android:textSize="20dp"
+            tools:text="PRUEBA DE TITLE"
+            />
+        <TextView
+            android:id="@+id/tv_description2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            tools:text="PRUEBA DE DESCRIPTION"
+            />
+
+        <Button
+            android:id="@+id/btn_prueba2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="100dp"
+            android:text="PRUEBA"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
